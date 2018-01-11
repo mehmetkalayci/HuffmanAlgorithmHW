@@ -1,0 +1,8 @@
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\bin\Debug\HuffmanAlgorithmHW.exe.config
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\bin\Debug\HuffmanAlgorithmHW.exe
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\bin\Debug\HuffmanAlgorithmHW.pdb
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.frmMain.resources
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.Properties.Resources.resources
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.csproj.GenerateResource.Cache
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.exe
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.pdb
