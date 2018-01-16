@@ -43,10 +43,10 @@ namespace HuffmanAlgorithmHW
                 // parentNode için * karakteri kullanıldı
                 if (orderedNodes.Count >= 2)
                 {
-                    // Take first two items
+                    // ilk iki elemanı al
                     List<Node> taken = orderedNodes.Take(2).ToList<Node>();
 
-                    // Create a parent node by combining the frequencies
+                    // parentNode oluşturduk
                     Node parent = new Node()
                     {
                         Symbol = '*',
@@ -54,7 +54,8 @@ namespace HuffmanAlgorithmHW
                         Left = taken[0],
                         Right = taken[1]
                     };
-
+                    // parentnode için kullandığımız iki elemanı orderedNodes listesinden çıkardık
+                    // parentnode u ekledik
                     nodes.Remove(taken[0]);
                     nodes.Remove(taken[1]);
                     nodes.Add(parent);
@@ -67,10 +68,11 @@ namespace HuffmanAlgorithmHW
 
         }
 
+        // huffman ile sıkıştırılacak karakterler veriyoruz ve bize bit listesi dönüyor
         public BitArray Encode(string source)
         {
             List<bool> encodedSource = new List<bool>();
-
+            // tüm karakterleri tara ve encode et
             for (int i = 0; i < source.Length; i++)
             {
                 List<bool> encodedSymbol = this.Root.Traverse(source[i], new List<bool>());
@@ -82,6 +84,7 @@ namespace HuffmanAlgorithmHW
             return bits;
         }
 
+        // huffman ile encode edilen bitleri karaktere çeviriyoruz
         public string Decode(BitArray bits)
         {
             Node current = this.Root;
@@ -114,6 +117,7 @@ namespace HuffmanAlgorithmHW
             return decoded;
         }
 
+        // verilen node'un alt sağ ve sol node'u yoksa leaf'tır dedik
         public bool IsLeaf(Node node)
         {
             return (node.Left == null && node.Right == null);

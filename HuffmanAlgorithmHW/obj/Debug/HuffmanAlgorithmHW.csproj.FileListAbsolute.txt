@@ -6,3 +6,4 @@ C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanA
 C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.csproj.GenerateResource.Cache
 C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.exe
 C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.pdb
+C:\Users\Mehmet\Desktop\HuffmanAlgorithmHW\HuffmanAlgorithmHW\obj\Debug\HuffmanAlgorithmHW.csprojResolveAssemblyReference.cache

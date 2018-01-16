@@ -9,6 +9,8 @@ namespace HuffmanAlgorithmHW
 {
     public class Node
     {
+        // nodeumuzun özelliklerini tanımladık
+        // node da symbol, frekans ve sağ sol nodelar olacak
         public char Symbol { get; set; }
         public int Frequency { get; set; }
         public Node Right { get; set; }
@@ -16,7 +18,7 @@ namespace HuffmanAlgorithmHW
 
         public List<bool> Traverse(char symbol, List<bool> data)
         {
-            // Leaf
+            // Leaf mı kontrol et
             if (Right == null && Left == null)
             {
                 if (symbol.Equals(this.Symbol))
