@@ -6,4 +6,4 @@ Bu uygulamada C# programlama dili kullanılarak static huffman coding algoritmas
 girdi olarak alınan metin dosyaları üzerinde yapılan işlemlerin çalışma zamanı(running time)
 ve sıkıştırma oranı(compression ratio) bulunarak grafik üzerinde gösterilmiştir.
 
-<img src="ekrangoruntusu.jpg" width="600" height="600" />
+<img src="ekrangoruntusu.jpg" width="600" height="480" />
